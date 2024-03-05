@@ -1,5 +1,5 @@
 /* 
- * You also like the acting in the movies ACADEMY DINOSAUR and AGENT TRUMP,
+ * You also like the acting in the movies ACADEMY DINOSAUR and AGENT TRUMAN,
  * and so you'd like to see movies with actors that were in either of these movies or AMERICAN CIRCUS.
  *
  * Write a SQL query that lists all movies where at least 3 actors were in one of the above three movies.

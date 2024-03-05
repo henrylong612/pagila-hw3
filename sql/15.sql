@@ -1,5 +1,5 @@
 /*
- * Find every documentary film that is rated PG.
+ * Find every documentary film that is rated G.
  * Report the title and the actors.
  *
  * HINT:
