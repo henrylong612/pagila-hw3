@@ -34,7 +34,7 @@ ORDER BY customer_id;
 
 
 
-
+/*
 SELECT
 customer_id,
 first_name,
@@ -55,3 +55,4 @@ JOIN category ca USING (category_id)
 GROUP BY 1,2,3
 HAVING sum(CASE WHEN name = 'Action' THEN 1 ELSE 0 END) >= 4
 ORDER BY customer_id;
+*/
