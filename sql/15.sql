@@ -8,3 +8,15 @@
  * But there is also a view in the database that contains the correct formatting,
  * and you can SELECT from that VIEW instead of constructing the entire query manually.
  */
+
+SELECT
+title,
+STRING_AGG(initcap(first_name) || initcap(last_name), ', ') AS actors
+FROM actor
+JOIN film_actor USING (actor_id)
+JOIn film USING (film_id)
+JOIN film_category USING (film_id)
+JOIN category USINg (category_id)
+WHERE name = 'Documentary'
+AND rating = 'G'
+GROUP BY 1;
